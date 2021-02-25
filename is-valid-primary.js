@@ -3,11 +3,7 @@
  ******************/
 
 function isValidPrimary(color1) {
-  if (color1 === 'red'){
-    return true;
-  } else if (color1 === 'yellow'){
-    return true;
-  } else if (color1 === 'blue') {
+  if (color1 === 'red' || color1 === 'yellow' || color1 === 'blue'){
     return true;
   } else {
     return false;

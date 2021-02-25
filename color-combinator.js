@@ -7,11 +7,15 @@ function colorCombinator(color1, color2) {
     return 'orange';
   } else if (color1 === 'yellow' && color2 === 'red'){
     return 'orange';
-  } else if (color1 === 'red' && color2 === 'blue') {
+  } 
+  
+  if (color1 === 'red' && color2 === 'blue') {
     return 'purple';
   } else if (color1 === 'blue' && color2 === 'red'){
     return 'purple';
-  } else if (color1 === 'yellow' && color2 === 'blue') {
+  } 
+  
+  if (color1 === 'yellow' && color2 === 'blue') {
     return 'green';
   } else if (color1 === 'blue' && color2 === 'yellow'){
     return 'green';
