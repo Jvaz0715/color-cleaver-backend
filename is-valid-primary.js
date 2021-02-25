@@ -2,22 +2,16 @@
  * YOUR CODE HERE *
  ******************/
 
-const color1 = getInput(1);
-const color2 = getInput (2);
-
-function isValidPrimary() {
-  if (color1 === 'red' || color2 === 'red') {
-    console.log('red');
-  } else if (color1 === 'yellow' || color2 === 'yellow'){
-    console.log('green');
-  } else if (color1 === 'blue' || color2 === 'blue'){
-    console.log('blue');
+/*function isValidPrimary(color1) {
+  if (color1 === 'red'){
+    return true;
+  } else if (color1 === 'yellow'){
+    return true;
+  } else if (color1 === 'blue') {
+    return true;
   } else {
-    console.log('That is not a primary color');
-  }
-}
-
-
+    return false;
+  }*/
 
 // Our setup code here. Don't touch!
 if(typeof isValidPrimary === 'undefined') {
